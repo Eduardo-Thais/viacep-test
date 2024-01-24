@@ -95,7 +95,7 @@
 const axios = require('axios').default;
 
 export default {
-    name: 'Ceps',
+    name: 'CepsComponent',
 
     props: {
         ceps: { type: Object[Array], required: true }

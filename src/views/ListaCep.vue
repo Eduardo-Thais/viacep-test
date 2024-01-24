@@ -6,7 +6,7 @@
 
 <script>
 const axios = require('axios').default;
-import ceps from '../components/Ceps';
+import ceps from '../components/CepsComponent';
 
 export default {
     name: 'ListaCep',
