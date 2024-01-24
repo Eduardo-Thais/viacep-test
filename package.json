@@ -6,11 +6,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh",
+    "start": "serve -s build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "router": "^1.3.8",
+    "serve": "^14.2.1",
+    "vue": "^3.2.13",
+    "vuetify": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
